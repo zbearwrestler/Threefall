@@ -27,12 +27,12 @@ public abstract class Weapon : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// only shoot when there are bullets and it's time to shoot
-		if (ammo>0 && Time.time>shotTime && Input.GetButton("Fire1")){
-			Shoot();
+		//// only shoot when there are bullets and it's time to shoot
+		//if (ammo>0 && Time.time>shotTime && Input.GetButton("Fire1")){
+		//	Shoot();
 
-			shotTime = Time.time+shotInterval; // set next shot time
-		}
+		//	shotTime = Time.time+shotInterval; // set next shot time
+		//}
 		// only reload when out of bullets and there are ammo clips:
 		if (ammo==0){
 			Reload ();
@@ -48,37 +48,42 @@ public abstract class Weapon : MonoBehaviour {
 	}
 
 	// Shoot
-	public void Shoot() {	
-		for (int i = 0; i < numOfBullets; i++) {
-			GameObject bullet = Instantiate (bulletPrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
-		
-			//Debug.Log ("bullet works");
+	public void Shoot() {
+        if (ammo > 0 && Time.time > shotTime)
+        {
 
-			bullet.transform.forward = transform.forward;
+            for (int i = 0; i < numOfBullets; i++)
+            {
+                GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
 
-			// Add velocity to the bullet
+                //Debug.Log ("bullet works");
 
-			bullet.GetComponent<Rigidbody> ().AddForce (transform.forward * speed);
-			//Debug.Log ("moving");    
+                bullet.transform.forward = transform.forward;
+
+                // Add velocity to the bullet
+
+                bullet.GetComponent<Rigidbody>().AddForce(transform.forward * speed);
+                //Debug.Log ("moving");    
 
 
-			// Destroy bullet after 10 seconds
-			Destroy (bullet, 30.0f);
+                // Destroy bullet after 10 seconds
+                Destroy(bullet, 30.0f);
 
 
-			bullet.transform.forward = transform.forward;
+                bullet.transform.forward = transform.forward;
 
-			//bullet.GetComponent<Rigidbody> ().AddForce (transform.forward * 100);
+                //bullet.GetComponent<Rigidbody> ().AddForce (transform.forward * 100);
 
-			bullet.GetComponent<Rigidbody> ().transform.Rotate (Random.Range (-bx, bx), Random.Range (-bx, bx), Random.Range (-bx, bx));
+                bullet.GetComponent<Rigidbody>().transform.Rotate(Random.Range(-bx, bx), Random.Range(-bx, bx), Random.Range(-bx, bx));
 
-			bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * 6;
-		}
-		source = GetComponent<AudioSource> ();
-		source.PlayOneShot (gunshot, volumeScale: 10);
-	
-			ammo--;
+                bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6;
+            }
+            source = GetComponent<AudioSource>();
+            source.PlayOneShot(gunshot, volumeScale: 10);
 
+            ammo--;
+            shotTime = Time.time + shotInterval;
+        }
 		       
 	}
 

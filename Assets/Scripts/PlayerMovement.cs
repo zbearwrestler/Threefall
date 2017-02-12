@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour {
     //Distance from bottom of the collider to the ground
     private float groundDist;
 
-
+    public Weapon Gun;
     private CapsuleCollider capsule;
     private CharacterController controller;
 
@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour {
         controller = gameObject.GetComponent<CharacterController>();
         //Set groundDist to be the edge of the y-axis
         groundDist = capsule.bounds.extents.y;
+        Gun = gameObject.GetComponent<Weapon>();
+        Debug.Log("makes gun");
     }
 
 	// Update is called once per frame
@@ -50,16 +52,12 @@ public class PlayerMovement : MonoBehaviour {
             //Set the direction, based on the camera.. And move it.
             move = Camera.main.transform.TransformDirection(move);
             anim.SetFloat("Speed", move.z);
-            // If they click jump, then the player will jump.
-            //if (Input.GetButtonDown("Jump"))
+           
+            //if(Input.GetButtonDown("Fire1"))
             //{
-            //    move.y = jumping;
+            //    Gun.Shoot();
+            //    Debug.Log("can shoot");
             //}
-
-            if(Input.GetButtonDown("Fire1"))
-            {
-                anim.SetTrigger("Shoot");
-            }
         }
         else
         {

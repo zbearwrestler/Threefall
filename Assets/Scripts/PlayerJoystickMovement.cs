@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerJoystickMovement : MonoBehaviour
 {
-
     public float speed = 10.0f;
     public float gravity = 30.0f;
     public float jumping = 10.0f;
@@ -19,6 +18,8 @@ public class PlayerJoystickMovement : MonoBehaviour
     //Quaternion representing how far to rotate
     private Quaternion rotateTo;
     //Distance from bottom of the collider to the ground
+
+    public Weapon Gun;
     private float groundDist;
     public Camera mine;
 
@@ -34,6 +35,8 @@ public class PlayerJoystickMovement : MonoBehaviour
         controller = gameObject.GetComponent<CharacterController>();
         //Set groundDist to be the edge of the y-axis
         groundDist = capsule.bounds.extents.y;
+
+        Gun = gameObject.GetComponent<Weapon>();
     }
 
     // Update is called once per frame
@@ -53,11 +56,11 @@ public class PlayerJoystickMovement : MonoBehaviour
             //Set the direction, based on the camera.. And move it.
             move = mine.transform.TransformDirection(move);
             anim.SetFloat("Speed", move.z);
-            // If they click jump, then the player will jump.
+           
 
             if (Input.GetButtonDown("Fire1_Joystick"))
             {
-                anim.SetTrigger("Shoot");
+                Gun.Shoot();
             }
         }
         else
