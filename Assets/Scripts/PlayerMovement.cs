@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public float speed = 10.0f;
-    public float gravity = 30.0f;
+    public float gravity = 100.0f;
     public float jumping = 10.0f;
     public float camSpeed = 10.0f;
     Animator anim;
@@ -20,9 +20,10 @@ public class PlayerMovement : MonoBehaviour {
     //Distance from bottom of the collider to the ground
     private float groundDist;
 
-
+    public Camera mine;
     private CapsuleCollider capsule;
     private CharacterController controller;
+    public Transform player;
 
     // Use this for initialization
     void Start () {
@@ -41,14 +42,14 @@ public class PlayerMovement : MonoBehaviour {
         float moveZ = (Input.GetAxis("Vertical")) * speed;
 
         
-        if (controller.isGrounded)
+        if (IsGrounded())
         {
             anim.SetBool("Falling", false);
             //Initialize the new posiiton...
             move = new Vector3(moveX, 0.0f, moveZ);
-
+            Debug.Log(move);
             //Set the direction, based on the camera.. And move it.
-            move = Camera.main.transform.TransformDirection(move);
+            //move = mine.transform.TransformDirection(move);
             anim.SetFloat("Speed", move.z);
             // If they click jump, then the player will jump.
             //if (Input.GetButtonDown("Jump"))
@@ -66,9 +67,11 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetBool("Falling", true);
         }
 
-        move.y -= gravity * Time.deltaTime;
+        move.y -= gravity;// * Mathf.Abs(gravity);
+        Debug.Log("Yo what time is it?" + Time.deltaTime);
         controller.Move(move * Time.deltaTime);
 
+        move.y = 0;
     }
     void FixedUpdate()
     {
