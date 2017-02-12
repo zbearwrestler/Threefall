@@ -63,12 +63,12 @@ public abstract class Weapon : MonoBehaviour {
 
 
 			// Destroy bullet after 10 seconds
-			Destroy (bullet, 10.0f);
+			Destroy (bullet, 30.0f);
 
 
 			bullet.transform.forward = transform.forward;
 
-			bullet.GetComponent<Rigidbody> ().AddForce (transform.forward * 100);
+			//bullet.GetComponent<Rigidbody> ().AddForce (transform.forward * 100);
 
 			bullet.GetComponent<Rigidbody> ().transform.Rotate (Random.Range (-bx, bx), Random.Range (-bx, bx), Random.Range (-bx, bx));
 

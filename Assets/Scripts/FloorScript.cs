@@ -12,6 +12,7 @@ public class FloorScript : MonoBehaviour {
     void OnCollisionEnter(Collision col)
     {
 		if (col.gameObject.tag == "Pistol_Bullet") {
+            Debug.Log("I'm Hit");
 			pistolbullet = col.gameObject.GetComponent<bulletscript> ();
 			healthloss = health - pistolbullet.dmg;
 			pistolbullet.dmg -= health;
@@ -31,8 +32,10 @@ public class FloorScript : MonoBehaviour {
 			}
 
 
-		} else {
-			shotgunbullet = col.gameObject.GetComponent<ShotgunB> ();
+		} else if(col.gameObject.tag == "Shotgun_Bullet")
+        {
+            Debug.Log("I'm Hit");
+            shotgunbullet = col.gameObject.GetComponent<ShotgunB> ();
 			healthloss = health - shotgunbullet.dmg;
 			shotgunbullet.dmg -= health;
 			health -= healthloss;

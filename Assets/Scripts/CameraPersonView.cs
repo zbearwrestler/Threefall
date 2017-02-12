@@ -8,6 +8,7 @@ public class CameraPersonView : MonoBehaviour {
 
     public Transform lookAt;
     public Transform camTransform;
+    public Transform player;
 
     //private Camera cam; 
 
@@ -34,6 +35,7 @@ public class CameraPersonView : MonoBehaviour {
         Quaternion rotation = Quaternion.Euler(currY, currX, 0);
         camTransform.position = lookAt.position + rotation * dir;
         camTransform.LookAt(lookAt.position);
+
     }
 
 }

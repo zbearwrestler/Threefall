@@ -1,0 +1,1126 @@
+fileFormatVersion: 2
+guid: e26559b25df7bb1408bf16d40d867880
+timeCreated: 1486891514
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: camera1
+    100002: chest_high
+    100004: chest_high_zero
+    100006: chest_low
+    100008: chest_low_zero
+    100010: chest_mid
+    100012: chest_mid_zero
+    100014: COG
+    100016: cog
+    100018: cog_zero
+    100020: head
+    100022: head01
+    100024: head02
+    100026: head_zero
+    100028: joint5
+    100030: l_clav
+    100032: l_feet
+    100034: l_feet_zero
+    100036: l_Hand
+    100038: l_hand01
+    100040: l_hand02
+    100042: l_Hand_zero
+    100044: l_leg
+    100046: l_leg01
+    100048: l_leg02
+    100050: l_leg03
+    100052: l_leg04
+    100054: l_leg_zero
+    100056: l_lowerArm
+    100058: l_lowerArm_zero
+    100060: l_lowerHand
+    100062: l_shoulder
+    100064: l_shoulder_zero
+    100066: l_toe
+    100068: l_toe_zero
+    100070: l_upperArm
+    100072: l_upperArm_zero
+    100074: l_upperHand
+    100076: pCube1
+    100078: pCube2
+    100080: pCube3
+    100082: //RootNode
+    100084: pSphere1
+    100086: pSphere2
+    100088: pSphere3
+    100090: r_clav
+    100092: r_feet
+    100094: r_feet_zero
+    100096: r_Hand
+    100098: r_hand01
+    100100: r_hand02
+    100102: r_Hand_zero
+    100104: r_leg
+    100106: r_leg01
+    100108: r_leg02
+    100110: r_leg03
+    100112: r_leg04
+    100114: r_leg_zero
+    100116: r_lowerArm
+    100118: r_lowerArm_zero
+    100120: r_lowerHand
+    100122: r_shoulder
+    100124: r_shoulder_zero
+    100126: r_toe
+    100128: r_toe_zero
+    100130: r_upperArm
+    100132: r_upperArm_zero
+    100134: r_upperHand
+    100136: spine01
+    100138: spine02
+    100140: spine03
+    100142: transform1
+    100144: transform2
+    100146: transform3
+    100148: transform4
+    400000: camera1
+    400002: chest_high
+    400004: chest_high_zero
+    400006: chest_low
+    400008: chest_low_zero
+    400010: chest_mid
+    400012: chest_mid_zero
+    400014: COG
+    400016: cog
+    400018: cog_zero
+    400020: head
+    400022: head01
+    400024: head02
+    400026: head_zero
+    400028: joint5
+    400030: l_clav
+    400032: l_feet
+    400034: l_feet_zero
+    400036: l_Hand
+    400038: l_hand01
+    400040: l_hand02
+    400042: l_Hand_zero
+    400044: l_leg
+    400046: l_leg01
+    400048: l_leg02
+    400050: l_leg03
+    400052: l_leg04
+    400054: l_leg_zero
+    400056: l_lowerArm
+    400058: l_lowerArm_zero
+    400060: l_lowerHand
+    400062: l_shoulder
+    400064: l_shoulder_zero
+    400066: l_toe
+    400068: l_toe_zero
+    400070: l_upperArm
+    400072: l_upperArm_zero
+    400074: l_upperHand
+    400076: pCube1
+    400078: pCube2
+    400080: pCube3
+    400082: //RootNode
+    400084: pSphere1
+    400086: pSphere2
+    400088: pSphere3
+    400090: r_clav
+    400092: r_feet
+    400094: r_feet_zero
+    400096: r_Hand
+    400098: r_hand01
+    400100: r_hand02
+    400102: r_Hand_zero
+    400104: r_leg
+    400106: r_leg01
+    400108: r_leg02
+    400110: r_leg03
+    400112: r_leg04
+    400114: r_leg_zero
+    400116: r_lowerArm
+    400118: r_lowerArm_zero
+    400120: r_lowerHand
+    400122: r_shoulder
+    400124: r_shoulder_zero
+    400126: r_toe
+    400128: r_toe_zero
+    400130: r_upperArm
+    400132: r_upperArm_zero
+    400134: r_upperHand
+    400136: spine01
+    400138: spine02
+    400140: spine03
+    400142: transform1
+    400144: transform2
+    400146: transform3
+    400148: transform4
+    2300000: pCube3
+    3300000: pCube3
+    4300000: pSphere3
+    4300002: pCube3
+    7400000: Idle
+    7400002: Shoot
+    7400004: Running
+    7400006: Flipping
+    7400008: Floating
+    9500000: //RootNode
+    13700000: pSphere3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/l_leg01
+        weight: 1
+      - path: COG/l_leg01/l_leg02
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03/l_leg04
+        weight: 1
+      - path: COG/r_leg01
+        weight: 1
+      - path: COG/r_leg01/r_leg02
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03/r_leg04
+        weight: 1
+      - path: COG/spine01
+        weight: 1
+      - path: COG/spine01/spine02
+        weight: 1
+      - path: COG/spine01/spine02/spine03
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02/joint5
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01/l_hand02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01/r_hand02
+        weight: 1
+      - path: cog_zero
+        weight: 1
+      - path: cog_zero/cog
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero/head
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero/l_Hand
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero/r_Hand
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero/l_toe
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero/r_toe
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform4
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/l_leg01
+        weight: 1
+      - path: COG/l_leg01/l_leg02
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03/l_leg04
+        weight: 1
+      - path: COG/r_leg01
+        weight: 1
+      - path: COG/r_leg01/r_leg02
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03/r_leg04
+        weight: 1
+      - path: COG/spine01
+        weight: 1
+      - path: COG/spine01/spine02
+        weight: 1
+      - path: COG/spine01/spine02/spine03
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02/joint5
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01/l_hand02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01/r_hand02
+        weight: 1
+      - path: cog_zero
+        weight: 1
+      - path: cog_zero/cog
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero/head
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero/l_Hand
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero/r_Hand
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero/l_toe
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero/r_toe
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform4
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/l_leg01
+        weight: 1
+      - path: COG/l_leg01/l_leg02
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03/l_leg04
+        weight: 1
+      - path: COG/r_leg01
+        weight: 1
+      - path: COG/r_leg01/r_leg02
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03/r_leg04
+        weight: 1
+      - path: COG/spine01
+        weight: 1
+      - path: COG/spine01/spine02
+        weight: 1
+      - path: COG/spine01/spine02/spine03
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02/joint5
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01/l_hand02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01/r_hand02
+        weight: 1
+      - path: cog_zero
+        weight: 1
+      - path: cog_zero/cog
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero/head
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero/l_Hand
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero/r_Hand
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero/l_toe
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero/r_toe
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform4
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flipping
+      takeName: Take 001
+      firstFrame: 53
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/l_leg01
+        weight: 1
+      - path: COG/l_leg01/l_leg02
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03/l_leg04
+        weight: 1
+      - path: COG/r_leg01
+        weight: 1
+      - path: COG/r_leg01/r_leg02
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03/r_leg04
+        weight: 1
+      - path: COG/spine01
+        weight: 1
+      - path: COG/spine01/spine02
+        weight: 1
+      - path: COG/spine01/spine02/spine03
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02/joint5
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01/l_hand02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01/r_hand02
+        weight: 1
+      - path: cog_zero
+        weight: 1
+      - path: cog_zero/cog
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero/head
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero/l_Hand
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero/r_Hand
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero/l_toe
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero/r_toe
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform4
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Floating
+      takeName: Take 001
+      firstFrame: 74
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/l_leg01
+        weight: 1
+      - path: COG/l_leg01/l_leg02
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03
+        weight: 1
+      - path: COG/l_leg01/l_leg02/l_leg03/l_leg04
+        weight: 1
+      - path: COG/r_leg01
+        weight: 1
+      - path: COG/r_leg01/r_leg02
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03
+        weight: 1
+      - path: COG/r_leg01/r_leg02/r_leg03/r_leg04
+        weight: 1
+      - path: COG/spine01
+        weight: 1
+      - path: COG/spine01/spine02
+        weight: 1
+      - path: COG/spine01/spine02/spine03
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/head01/head02/joint5
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/l_clav/l_upperHand/l_lowerHand/l_hand01/l_hand02
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01
+        weight: 1
+      - path: COG/spine01/spine02/spine03/r_clav/r_upperHand/r_lowerHand/r_hand01/r_hand02
+        weight: 1
+      - path: cog_zero
+        weight: 1
+      - path: cog_zero/cog
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/head_zero/head
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/l_shoulder_zero/l_shoulder/l_upperArm_zero/l_upperArm/l_lowerArm_zero/l_lowerArm/l_Hand_zero/l_Hand
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero
+        weight: 1
+      - path: cog_zero/cog/chest_low_zero/chest_low/chest_mid_zero/chest_mid/chest_high_zero/chest_high/r_shoulder_zero/r_shoulder/r_upperArm_zero/r_upperArm/r_lowerArm_zero/r_lowerArm/r_Hand_zero/r_Hand
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero
+        weight: 1
+      - path: cog_zero/cog/l_leg_zero/l_leg/l_feet_zero/l_feet/l_toe_zero/l_toe
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero
+        weight: 1
+      - path: cog_zero/cog/r_leg_zero/r_leg/r_feet_zero/r_feet/r_toe_zero/r_toe
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform4
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
