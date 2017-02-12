@@ -74,8 +74,8 @@ public abstract class Weapon : MonoBehaviour {
 
 			bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * 6;
 		}
-		source = GetComponent<AudioSource> ();
-		source.PlayOneShot (gunshot, volumeScale: 10);
+		//source = GetComponent<AudioSource> ();
+		source.PlayOneShot (gunshot, volumeScale: 1);
 	
 			ammo--;
 

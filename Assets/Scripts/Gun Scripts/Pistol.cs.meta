@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: 241f3c3f554d04403b679d735c9abfbc
-timeCreated: 1486794833
+timeCreated: 1486939491
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bulletPrefab: {instanceID: 0}
+  - bulletSpawn: {instanceID: 0}
+  - gunshot: {fileID: 8300000, guid: bb1b8fb0984c15a448572e6730d51037, type: 3}
+  - source: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
