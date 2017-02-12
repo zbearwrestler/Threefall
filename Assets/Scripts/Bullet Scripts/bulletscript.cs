@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class bulletscript : MonoBehaviour {
-    public int dmg = 5;
+    public int dmg = 20;
 	// Use this for initialization
 	void Start () {
 		

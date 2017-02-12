@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 95237219707197062}
   - component: {fileID: 136906984426615698}
   - component: {fileID: 54068434646877638}
+  - component: {fileID: 114894929506495296}
   m_Layer: 8
   m_Name: PistolB
   m_TagString: Pistol_Bullet
@@ -114,6 +115,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114894929506495296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503438466307640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033a3b2b6caf40541926da3ccf73a194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 20
 --- !u!136 &136906984426615698
 CapsuleCollider:
   m_ObjectHideFlags: 1

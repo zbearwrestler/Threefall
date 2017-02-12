@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AddStuff : MonoBehaviour
 {
-
+    public int level;
 	// Use this for initialization
 	void Start () {
 
@@ -21,7 +21,18 @@ public class AddStuff : MonoBehaviour
     {
         if (mesh.GetComponentInChildren<Collider>() == null)
         {
-
+            if(level == 0)
+            {
+                mesh.gameObject.tag = "Bottom";
+            }
+            if(level == 1)
+            {
+                mesh.gameObject.tag = "Middle";
+            }
+            if(level == 2)
+            {
+                mesh.gameObject.tag = "High";
+            }
             BoxCollider boxColl = mesh.gameObject.AddComponent<BoxCollider>();
             boxColl.size = mesh.bounds.size * 10f;
 

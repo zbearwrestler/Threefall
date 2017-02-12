@@ -6,13 +6,13 @@ public class Shotgun : Weapon {
 
 	// Use this for initialization
 	void Start () {
-		clipSize = 5;
+		clipSize = 8;
 		ammo = clipSize;
 		speed = 1600;
-		reloadTime = 4;
-		shotInterval = 1.5f;
-		bx = 30;
-		numOfBullets = 5;
+		reloadTime = 2;
+		shotInterval = 1f;
+		bx = 40;
+		numOfBullets = 6;
 	}
 
 }

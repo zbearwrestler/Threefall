@@ -11,37 +11,21 @@ public class FloorScript : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-		if (col.gameObject.tag == "Pistol_Bullet") {
-            Debug.Log("I'm Hit");
-			pistolbullet = col.gameObject.GetComponent<bulletscript> ();
-			healthloss = health - pistolbullet.dmg;
-			pistolbullet.dmg -= health;
-			health -= healthloss;
-			if (pistolbullet.dmg <= 0) {
-				Destroy (col.gameObject);
-			}
-				
-
+		if (col.gameObject.tag == "Pistol_Bullet")
+        {
+            Destroy(gameObject);
+            Destroy (col.gameObject);
 		} else if (col.gameObject.tag == "Rifle_Bullet") {
 			riflebullet = col.gameObject.GetComponent<RifleB> ();
-			healthloss = health - riflebullet.dmg;
-			riflebullet.dmg -= health;
-			health -= healthloss;
-			if (riflebullet.dmg <= 0) {
+			health -= riflebullet.dmg;
 				Destroy (col.gameObject);
-			}
 
 
 		} else if(col.gameObject.tag == "Shotgun_Bullet")
         {
-            Debug.Log("I'm Hit");
             shotgunbullet = col.gameObject.GetComponent<ShotgunB> ();
-			healthloss = health - shotgunbullet.dmg;
-			shotgunbullet.dmg -= health;
-			health -= healthloss;
-			if (shotgunbullet.dmg <= 0) {
-				Destroy (col.gameObject);
-			}
+            health -= shotgunbullet.dmg;
+            Destroy (col.gameObject);
 		}
 
 		if (health <= 0) {

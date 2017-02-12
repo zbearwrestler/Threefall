@@ -8,7 +8,7 @@ public class Pistol : Weapon {
 	void Start () {
 		clipSize = 10;
 		ammo = clipSize;
-		speed = 500;
+		speed = 1500;
 		reloadTime = 2;
 		shotInterval = 0.5f;
 		bx = 0;
