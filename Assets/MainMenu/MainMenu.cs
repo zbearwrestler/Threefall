@@ -21,6 +21,7 @@ public class MainMenu : MonoBehaviour
         exitText = exitText.GetComponent<Button>();
         //mainMenu.enabled = true;
 
+
     }
 
     //public void ExitPress() //this function will be used on our Exit button
