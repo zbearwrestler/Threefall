@@ -63,7 +63,7 @@ public abstract class Weapon : MonoBehaviour {
 
 
 			// Destroy bullet after 10 seconds
-			Destroy (bullet, 30.0f);
+			Destroy (bullet, 5.0f);
 
 
 			bullet.transform.forward = transform.forward;
