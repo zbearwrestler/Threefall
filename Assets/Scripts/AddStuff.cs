@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class AddStuff : MonoBehaviour
 {
+    public AudioSource audio;
     public int level;
 	// Use this for initialization
 	void Start () {
 
         MeshRenderer[] meshes = GetComponentsInChildren<MeshRenderer>();
-
+        
         for (int i = 0; i < meshes.Length; i++)
         {
             AddStuffToObject(meshes[i]);
@@ -35,7 +36,7 @@ public class AddStuff : MonoBehaviour
             }
             BoxCollider boxColl = mesh.gameObject.AddComponent<BoxCollider>();
             boxColl.size = mesh.bounds.size * 10f;
-
+            mesh.gameObject.AddComponent<AudioSource>();
             mesh.gameObject.AddComponent<FloorScript>();
         }
     }

@@ -8,6 +8,12 @@ public class FloorScript : MonoBehaviour {
     bulletscript pistolbullet;
 	RifleB riflebullet;
 	ShotgunB shotgunbullet;
+    AudioClip breaknoise;
+
+    void Start()
+    {
+        breaknoise = Floor_Explosion_01;
+    }
 
     void OnCollisionEnter(Collision col)
     {

@@ -8,7 +8,7 @@ public class Shotgun : Weapon {
 	void Start () {
 		clipSize = 8;
 		ammo = clipSize;
-		speed = 1600;
+		speed = 16000;
 		reloadTime = 2;
 		shotInterval = 1f;
 		bx = 40;
