@@ -10,6 +10,8 @@ public class MainMenu : MonoBehaviour
     public Button instructionText;
     public Button creditText;
     public Button exitText;
+    private Image credits;
+    private Image instructions;
 
     void Start()
 
@@ -20,10 +22,20 @@ public class MainMenu : MonoBehaviour
         //creditText = creditText.GetComponent<Button>();
         exitText = exitText.GetComponent<Button>();
         //mainMenu.enabled = true;
-
-
+        credits = credits.GetComponent<Image>();
     }
 
+    void Update()
+    {
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            GameObject credits = GameObject.Find("credits");
+            credits.GetComponent<Image>().enabled = false;
+            GameObject instructions = GameObject.Find("instructions");
+            instructions.GetComponent<Image>().enabled = false;
+        }
+        }
     //public void ExitPress() //this function will be used on our Exit button
 
     //{
@@ -51,13 +63,15 @@ public class MainMenu : MonoBehaviour
     public void instructionLevel()
 
     {
-        SceneManager.LoadScene("instructions"); // loads instructions
+        GameObject instructions = GameObject.Find("instructions");
+        instructions.GetComponent<Image>().enabled = true;
     }
 
-    public void CreditLevel()
+    public void CreditLevel()  // loads credits
 
     {
-        SceneManager.LoadScene("credits"); // loads credits
+        GameObject credits = GameObject.Find("credits");
+        credits.GetComponent<Image>().enabled = true;
     }
 
 
