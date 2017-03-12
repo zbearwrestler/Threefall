@@ -12,7 +12,7 @@ public class FloorScript : MonoBehaviour {
 
     void Start()
     {
-        breaknoise = Floor_Explosion_01;
+       // breaknoise = Instantiate(Reasouces.Load());
     }
 
     void OnCollisionEnter(Collision col)

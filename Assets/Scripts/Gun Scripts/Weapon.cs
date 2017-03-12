@@ -16,7 +16,7 @@ public abstract class Weapon : MonoBehaviour {
 	public int numOfBullets;
 	public AudioClip gunshot;
 	public AudioSource source;
-
+    public string triggername;
 
 
 	// Use this for initialization
@@ -28,7 +28,8 @@ public abstract class Weapon : MonoBehaviour {
 	void Update () {
 
 		// only shoot when there are bullets and it's time to shoot
-		if (ammo>0 && Time.time>shotTime && Input.GetButton("Fire1")){
+		if (ammo>0 && Time.time>shotTime && Input.GetButton(triggername)){
+            
 			Shoot();
 
 			shotTime = Time.time+shotInterval; // set next shot time

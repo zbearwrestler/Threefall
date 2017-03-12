@@ -18,17 +18,17 @@ public class MainMenu : MonoBehaviour
     {
         mainMenu = mainMenu.GetComponent<Canvas>();
         startText = startText.GetComponent<Button>();
-        //instructionText = instructionText.GetComponent<Button>();
-        //creditText = creditText.GetComponent<Button>();
+        instructionText = instructionText.GetComponent<Button>();
+        creditText = creditText.GetComponent<Button>();
         exitText = exitText.GetComponent<Button>();
-        //mainMenu.enabled = true;
+        mainMenu.enabled = true;
         credits = credits.GetComponent<Image>();
     }
 
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("fire1"))
         {
             GameObject credits = GameObject.Find("credits");
             credits.GetComponent<Image>().enabled = false;

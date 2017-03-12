@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetBool("Falling", false);
             //Initialize the new posiiton...
             move = new Vector3(moveX, 0.0f, moveZ);
-            Debug.Log(move);
+            //Debug.Log(move);
             //Set the direction, based on the camera.. And move it.
             //move = mine.transform.TransformDirection(move);
             anim.SetFloat("Speed", move.z);
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         move.y -= gravity;// * Mathf.Abs(gravity);
-        Debug.Log("Yo what time is it?" + Time.deltaTime);
+        //Debug.Log("Yo what time is it?" + Time.deltaTime);
         controller.Move(move * Time.deltaTime);
 
         move.y = 0;

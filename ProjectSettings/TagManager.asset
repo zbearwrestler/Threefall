@@ -12,6 +12,7 @@ TagManager:
   - Bottom
   - Player2
   - Gun
+  - Gun2
   layers:
   - Default
   - TransparentFX

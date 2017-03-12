@@ -11,7 +11,7 @@ public class Shotgun : Weapon {
 		speed = 16000;
 		reloadTime = 2;
 		shotInterval = 1f;
-		bx = 40;
+		bx = 80;
 		numOfBullets = 6;
 	}
 
