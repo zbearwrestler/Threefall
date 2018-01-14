@@ -12,9 +12,12 @@ using UnityEngine;
 public class PlayerGun : Weapon
 {
     GameObject switchGun;
+    public GameObject GUI;
+
     // Use this for initialization
     void Start()
     {
+        Debug.Log(GUI);
         switchGun = GameObject.FindWithTag("Gun");
         switchGun.GetComponent<Rifle>().enabled = false;
         switchGun.GetComponent<Shotgun>().enabled = false;
@@ -24,10 +27,11 @@ public class PlayerGun : Weapon
 
     void OnCollisionEnter(Collision col)
     {
-
+        Debug.Log(GUI);
         if (col.gameObject.tag == "Middle")
         {
-            Debug.Log("Hit Middle");
+            Debug.Log(GUI);
+            GUI.GetComponent<KeyboardGUI>().newgun(1);
             switchGun = GameObject.FindWithTag("Gun");
             switchGun.GetComponent<Rifle>().enabled = false;
             switchGun.GetComponent<Shotgun>().enabled = true;
@@ -35,6 +39,8 @@ public class PlayerGun : Weapon
         }
         else if (col.gameObject.tag == "High")
         {
+            Debug.Log(GUI);
+            GUI.GetComponent<KeyboardGUI>().newgun(2);
             switchGun = GameObject.FindWithTag("Gun");
             switchGun.GetComponent<Rifle>().enabled = true;
             switchGun.GetComponent<Shotgun>().enabled = false;
@@ -42,6 +48,8 @@ public class PlayerGun : Weapon
         }
         else if (col.gameObject.tag == "Bottom")
         {
+            Debug.Log(GUI);
+            GUI.GetComponent<KeyboardGUI>().newgun(0);
             switchGun = GameObject.FindWithTag("Gun");
             switchGun.GetComponent<Rifle>().enabled = false;
             switchGun.GetComponent<Shotgun>().enabled = false;
