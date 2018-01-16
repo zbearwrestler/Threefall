@@ -1,0 +1,935 @@
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.20.16.4749
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Felix\Desktop\Threefall-master\finished\Final Build_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.771062 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at MainMenu.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3a20 -> priority: 1 
+  Thread -> id: 934 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.653147 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 12136.
+Total: 1.676642 ms (FindLiveObjects: 0.690568 ms CreateObjectMapping: 0.244938 ms MarkObjects: 0.707950 ms  DeleteObjects: 0.032790 ms)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+here
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Weapon.Shoot () [0x00000] in <filename unknown>:0 
+  at Weapon.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
